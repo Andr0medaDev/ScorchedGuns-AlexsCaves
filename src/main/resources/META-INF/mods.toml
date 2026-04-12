@@ -1,0 +1,41 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+[[mods]] #mandatory
+modId="scguns_alexscaves"
+version="0.0.1"
+
+displayName="Scorched Guns: Alex's Caves"
+authors="Andro" #optional
+description='''Addon to Scorched Guns 2 that implements compatibility between Scorched Guns 2 and Alex's Caves'''
+[[dependencies.scguns_alexscaves]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="${forge_version_range}" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.scguns_alexscaves]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.scguns_alexscaves]]
+    modId="scguns"
+    mandatory=true
+    versionRange="[0.5.3,0.6)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.scguns_alexscaves]]
+    modId="alexscaves"
+    mandatory=true
+    versionRange="[2.0.2,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.scguns_alexscaves]]
+    modId="citadel"
+    mandatory=true
+    versionRange="[2.6.0,)"
+    ordering="AFTER"
+    side="BOTH"
