@@ -19,8 +19,11 @@ public class ModCreativeTabs {
                     .title(Component.translatable("creativetab_scguns_alexscaves"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.TOXIC_CARBINE.get());
+                        pOutput.accept(ModItems.ACID_SHOTGUN.get());
+                        pOutput.accept(ModItems.ACID_PISTOL.get());
 
                         pOutput.accept(ModItems.URANIUM_CELL.get());
+                        pOutput.accept(ModItems.URANIUM_BLUEPRINT.get());
 
 
                     })

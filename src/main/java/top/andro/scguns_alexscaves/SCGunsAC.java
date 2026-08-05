@@ -31,6 +31,7 @@ public class SCGunsAC
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
+        ModEntities.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
