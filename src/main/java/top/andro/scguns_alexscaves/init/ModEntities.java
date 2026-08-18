@@ -8,7 +8,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import top.andro.scguns_alexscaves.entity.UraniumCellProjectileEntity;
+import top.andro.scguns_alexscaves.entity.projectile.UraniumCellProjectileEntity;
+import top.andro.scguns_alexscaves.entity.projectile.WaterBucketProjectileEntity;
 
 import java.util.function.BiFunction;
 
@@ -19,6 +20,7 @@ public class ModEntities {
 
     // Bullet Projectiles
     public static final RegistryObject<EntityType<UraniumCellProjectileEntity>> URANIUM_CELL_PROJECTILE = registerBasic("uranium_cell_projectile", UraniumCellProjectileEntity::new);
+    public static final RegistryObject<EntityType<WaterBucketProjectileEntity>> WATER_BUCKET_PROJECTILE = registerBasic("water_bucket_projectile", WaterBucketProjectileEntity::new);
 
     private static <T extends Entity> RegistryObject<EntityType<T>> registerBasic(String id, BiFunction<EntityType<T>, Level, T> function)
     {

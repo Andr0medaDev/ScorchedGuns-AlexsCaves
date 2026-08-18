@@ -67,10 +67,14 @@
     "emptyMagTimer": 10,
     "maxAmmo": 18,
     "reloadItem": "scguns:advanced_round",
+    "reloadByproduct": "minecraft:bucket",
+    "byproductChance": 0.55,
     "reloadTimer": 125,
-    "reloadType": "scguns:mag_fed"
+    "reloadType": "scguns:single_item"
   },
   "sounds": {
+    "boltPull": "minecraft:block.iron_trapdoor.open",
+    "boltRelease": "minecraft:block.iron_trapdoor.close",
     "cock": "scguns:item.pistol.cock",
     "enchantedFire": "scguns:item.plasma.fire",
     "fire": "scguns:item.plasma.fire",

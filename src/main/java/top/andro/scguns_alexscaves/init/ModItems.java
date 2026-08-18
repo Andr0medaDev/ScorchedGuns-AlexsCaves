@@ -8,14 +8,13 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import top.andro.scguns_alexscaves.SCGunsAC;
-import top.andro.scguns_alexscaves.item.ToxicGunItem;
+import top.ribs.scguns.common.item.gun.AbyssalGunItem;
+import top.ribs.scguns.common.item.gun.AcidGunItem;
+import top.ribs.scguns.common.item.gun.RadioactiveGunItem;
 import top.ribs.scguns.init.ModSounds;
 import top.ribs.scguns.item.AmmoItem;
 import top.ribs.scguns.item.BlueprintItem;
 import top.ribs.scguns.item.animated.AnimatedGunItem;
-
-import static net.minecraftforge.registries.ForgeRegistries.Keys.ITEMS;
-import static top.andro.scguns_alexscaves.SCGunsAC.MOD_ID;
 
 public class ModItems {
     public static final DeferredRegister<Item> REGISTER = DeferredRegister.create(ForgeRegistries.ITEMS, SCGunsAC.MOD_ID);
@@ -28,7 +27,7 @@ public class ModItems {
 
     //GUNS
     public static final RegistryObject<AnimatedGunItem> TOXIC_CARBINE = REGISTER.register("toxic_carbine",
-            () -> new ToxicGunItem(
+            () -> new RadioactiveGunItem(
                     new Item.Properties().stacksTo(1).durability(1000).rarity(RARITY_RADIOACTIVE),
                     "toxic_carbine", // Model path
                     ModSounds.MAG_OUT.get(),        // Reload sound mag out
@@ -40,7 +39,7 @@ public class ModItems {
     );
 
     public static final RegistryObject<AnimatedGunItem> ACID_SHOTGUN = REGISTER.register("acid_shotgun",
-            () -> new ToxicGunItem(
+            () -> new AcidGunItem(
                     new Item.Properties().stacksTo(1).durability(1000).rarity(RARITY_RADIOACTIVE),
                     "acid_shotgun", // Model path
                     ModSounds.MAG_OUT.get(),        // Reload sound mag out
@@ -52,9 +51,20 @@ public class ModItems {
     );
 
     public static final RegistryObject<AnimatedGunItem> ACID_PISTOL = REGISTER.register("acid_pistol",
-            () -> new ToxicGunItem(
+            () -> new AcidGunItem(
                     new Item.Properties().stacksTo(1).durability(1000).rarity(RARITY_RADIOACTIVE),
                     "acid_pistol", // Model path
+                    ModSounds.MAG_OUT.get(),        // Reload sound mag out
+                    ModSounds.MAG_IN.get(),         // Reload sound mag in
+                    ModSounds.RELOAD_END.get(),           // Reload sound end
+                    ModSounds.COPPER_GUN_JAM.get(),      // Ejector sound pull
+                    ModSounds.COPPER_GUN_JAM.get(),    // Ejector sound release
+                    0.001F)
+    );
+    public static final RegistryObject<AnimatedGunItem> HALIBUT_CANNON = REGISTER.register("halibut_cannon",
+            () -> new AbyssalGunItem(
+                    new Item.Properties().stacksTo(1).durability(1000).rarity(RARITY_ABYSSAL),
+                    "halibut_cannon", // Model path
                     ModSounds.MAG_OUT.get(),        // Reload sound mag out
                     ModSounds.MAG_IN.get(),         // Reload sound mag in
                     ModSounds.RELOAD_END.get(),           // Reload sound end

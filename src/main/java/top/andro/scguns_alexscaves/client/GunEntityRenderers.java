@@ -14,5 +14,6 @@ public class GunEntityRenderers {
     @SubscribeEvent
     public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(ModEntities.URANIUM_CELL_PROJECTILE.get(), ProjectileRenderer::new);
+        event.registerEntityRenderer(ModEntities.WATER_BUCKET_PROJECTILE.get(), ProjectileRenderer::new);
     }
 }

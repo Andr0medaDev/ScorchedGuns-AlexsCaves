@@ -13,6 +13,7 @@ import static top.andro.scguns_alexscaves.SCGunsAC.MOD_ID;
 @Mod.EventBusSubscriber(modid = MOD_ID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
 public enum SCGunsACSpecialModels {
     //toxic carbine
+    TOXIC_CARBINE("gun/toxic_carbine"),
     TOXIC_CARBINE_MAIN("toxic_carbine/main"),
     TOXIC_STAN_MAGAZINE("toxic_carbine/stand_mag"),
     TOXIC_FAST_MAGAZINE("toxic_carbine/fast_mag"),
@@ -27,9 +28,14 @@ public enum SCGunsACSpecialModels {
     TOXIC_ADVANCED_SILENCER("toxic_carbine/advanced_silencer"),
     TOXIC_MUZZLE_BRAKE("toxic_carbine/muzzle_brake"),
     //toxic shotgun
-    ACID_SHOTGUN_MAIN("toxic_carbine/main"),
+    ACID_SHOTGUN("gun/acid_shotgun"),
+    ACID_SHOTGUN_MAIN("acid_shotgun/main"),
     //toxic pistol
-    ACID_PISTOL_MAIN("toxic_carbine/main");
+    ACID_PISTOL("gun/acid_pistol"),
+    ACID_PISTOL_MAIN("acid_pistol/main"),
+    //halibut cannon
+    HALIBUT_CANNON("gun/halibut_cannon"),
+    HALIBUT_CANNON_MAIN("halibut_cannon/main");
 
 
     /**

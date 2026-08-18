@@ -1,12 +1,16 @@
 {
-  "creativetab.creativetab_scguns_alexscaves": "Scorched Guns: Alex's Caves",
+  "creativetab.scguns_alexscaves_tab": "Scorched Guns: Alex's Caves",
   "gun_tier.scguns.toxic": "Toxic",
   "item.scguns_alexscaves.toxic_carbine": "Toxic Carbine",
   "item.scguns_alexscaves.acid_shotgun": "Acid Shotgun",
   "item.scguns_alexscaves.acid_pistol": "Acid Pistol",
+
+  "item.scguns_alexscaves.halibut_cannon": "Halibut Cannon",
   "item.scguns_alexscaves.uranium_cell": "Uranium Cell",
   "item.scguns_alexscaves.uranium_blueprint": "Toxic Blueprint",
-  "scguns.desc.toxic_carbine": "A successor to the M3 Carabine, infused with Polymer Plates and Uranium. Keep note of radiation! Use with Caution!"
+  "scguns.desc.toxic_carbine": "A successor to the M3 Carabine, infused with Polymer Plates and Uranium. Keep note of radiation! Use with Caution!",
   "scguns.desc.acid_shotgun": "A powerful shotgun shooting acid forged by the Radiated",
-  "scguns.desc.acid_pistol": "A precise acid shooting pistol forged by the Radiated"
+  "scguns.desc.acid_pistol": "A precise acid shooting pistol forged by the Radiated",
+
+  "scguns.desc.halibut_cannon": "A mysterious fish with a gun barrel from the abyssal depths..."
 }

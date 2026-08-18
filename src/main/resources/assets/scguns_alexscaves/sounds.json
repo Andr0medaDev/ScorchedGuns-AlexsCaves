@@ -1,0 +1,18 @@
+{
+  "item.halibut_cannon.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/halibut_cannon/fire"
+      }
+    ]
+  },
+  "item.halibut_cannon.enchanted_fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/halibut_cannon/enchanted_fire"
+      }
+    ]
+  }
+}

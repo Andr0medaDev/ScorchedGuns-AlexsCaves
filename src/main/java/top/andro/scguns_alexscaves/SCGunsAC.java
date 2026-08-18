@@ -1,6 +1,7 @@
 package top.andro.scguns_alexscaves;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -12,10 +13,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-import top.andro.scguns_alexscaves.entity.UraniumCellProjectileEntity;
+import top.andro.scguns_alexscaves.entity.projectile.UraniumCellProjectileEntity;
+import top.andro.scguns_alexscaves.entity.projectile.WaterBucketProjectileEntity;
 import top.andro.scguns_alexscaves.init.ModEntities;
 import top.andro.scguns_alexscaves.init.ModItems;
 import top.andro.scguns_alexscaves.init.ModCreativeTabs;
+//import top.andro.scguns_alexscaves.init.ModSounds;
 import top.ribs.scguns.common.ProjectileManager;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -32,6 +35,7 @@ public class SCGunsAC
 
         ModItems.register(modEventBus);
         ModEntities.register(modEventBus);
+        //ModSounds.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -41,6 +45,8 @@ public class SCGunsAC
     private void commonSetup(final FMLCommonSetupEvent event) {
         ProjectileManager.getInstance().registerFactory(ModItems.URANIUM_CELL.get(), (worldIn, entity, weapon, item, modifiedGun) ->
                 new UraniumCellProjectileEntity(ModEntities.URANIUM_CELL_PROJECTILE.get(), worldIn, entity, weapon, item, modifiedGun));
+        ProjectileManager.getInstance().registerFactory(Items.WATER_BUCKET, (worldIn, entity, weapon, item, modifiedGun) ->
+                new WaterBucketProjectileEntity(ModEntities.WATER_BUCKET_PROJECTILE.get(), worldIn, entity, weapon, item, modifiedGun));
 
     }
 

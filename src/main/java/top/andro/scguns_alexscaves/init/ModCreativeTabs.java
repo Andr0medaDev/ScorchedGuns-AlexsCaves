@@ -16,11 +16,13 @@ public class ModCreativeTabs {
 
     public static final RegistryObject<CreativeModeTab> SCGUNS_ALEXSCAVES = CREATIVE_MODE_TABS.register("scguns_alexscaves",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TOXIC_CARBINE.get()))
-                    .title(Component.translatable("creativetab_scguns_alexscaves"))
+                    .title(Component.translatable("scguns_alexscaves_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.TOXIC_CARBINE.get());
                         pOutput.accept(ModItems.ACID_SHOTGUN.get());
                         pOutput.accept(ModItems.ACID_PISTOL.get());
+
+                        pOutput.accept(ModItems.HALIBUT_CANNON.get());
 
                         pOutput.accept(ModItems.URANIUM_CELL.get());
                         pOutput.accept(ModItems.URANIUM_BLUEPRINT.get());

@@ -1,0 +1,63 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.5,
+      "yOffset": 4.7,
+      "zOffset": -6.5,
+      "textureLocation": "muzzle_flash_abyssal"
+    }
+  },
+  "general": {
+    "weaponType": "rifle",
+    "alwaysSpread": true,
+    "fireMode": "scguns:burst",
+    "burstAmount": 3,
+    "burstCooldown": 10,
+    "gripType": "scguns:mini_gun_2",
+    "baseGripType": "scguns:mini_gun_2",
+    "projectileAmount": 25,
+    "rate": 4,
+    "recoilAngle": 2.75,
+    "recoilKick": 1.5,
+    "spread": 10.0,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20,
+    "criticalChance": 0.05,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.1
+  },
+  "modules": {
+  },
+  "projectile": {
+    "advantage": "scguns:none",
+    "damage": 9.0,
+    "ejectsCasing": false,
+    "gravity": false,
+    "item": "minecraft:water_bucket",
+    "life": 25,
+    "size": 0.5,
+    "speed": 5.5,
+    "trailLengthMultiplier": 2.0,
+    "impactEffect": "minecraft:blindness",
+    "impactEffectDuration": 250,
+    "impactEffectChance": 0.50,
+    "impactEffectAmplifier": 1
+  },
+  "reloads": {
+    "emptyMagTimer": 0,
+    "maxAmmo": 12,
+    "reloadItem": "scguns:advanced_round",
+    "reloadByproduct": "minecraft:bucket",
+    "byproductChance": 0.55,
+    "reloadTimer": 125,
+    "reloadType": "scguns:single_item"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns_alexscaves:item.halibut_cannon.enchanted_fire",
+    "fire": "scguns_alexscaves:item.halibut_cannon.fire",
+    "reload": "scguns:item.gauss.reload",
+    "silencedFire": "scguns:item.bruiser.silenced_fire",
+    "flyby": "scguns:bullet.flyby1"
+  }
+}

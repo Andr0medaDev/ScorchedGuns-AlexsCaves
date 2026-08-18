@@ -1,4 +1,4 @@
-package top.andro.scguns_alexscaves.entity;
+package top.andro.scguns_alexscaves.entity.projectile;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
