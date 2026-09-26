@@ -1,4 +1,12 @@
 {
+  "item.uranium.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/uranium/fire"
+      }
+    ]
+  },
   "item.halibut_cannon.fire": {
     "subtitle": "subtitle.scguns.fire",
     "sounds": [
@@ -7,11 +15,64 @@
       }
     ]
   },
-  "item.halibut_cannon.enchanted_fire": {
+  "item.acid.fire": {
     "subtitle": "subtitle.scguns.fire",
     "sounds": [
       {
-        "name": "scguns_alexscaves:item/halibut_cannon/enchanted_fire"
+        "name": "scguns_alexscaves:item/acid/fire"
+      }
+    ]
+  },
+  "item.trapdoor.open": {
+    "subtitle": "subtitle.minecraft.iron_trapdoor_open",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/trapdoor/open"
+      }
+    ]
+  },
+  "item.trapdoor.close": {
+    "subtitle": "subtitle.minecraft.iron_trapdoor_close",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/trapdoor/close"
+      }
+    ]
+  },
+  "item.gun_rustle": {
+    "subtitle": "subtitle.scguns_alexscaves.gun_rustle",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/gun_rustle/screw1",
+        "stream": true
+      },
+      {
+        "name": "scguns_alexscaves:item/gun_rustle/screw2",
+        "stream": true
+      },
+      {
+        "name": "scguns_alexscaves:item/gun_rustle/screw3",
+        "stream": true
+      },
+      {
+        "name": "scguns_alexscaves:item/gun_rustle/screw4",
+        "stream": true
+      }
+    ]
+  },
+  "item.exo_laser.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/exo_laser/fire"
+      }
+    ]
+  },
+  "item.forlorn_dual.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/forlorn_dual/fire"
       }
     ]
   }

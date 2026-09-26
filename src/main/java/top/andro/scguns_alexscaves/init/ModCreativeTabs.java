@@ -19,13 +19,24 @@ public class ModCreativeTabs {
                     .title(Component.translatable("scguns_alexscaves_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.TOXIC_CARBINE.get());
+                        pOutput.accept(ModItems.TOXIC_LMG.get());
                         pOutput.accept(ModItems.ACID_SHOTGUN.get());
                         pOutput.accept(ModItems.ACID_PISTOL.get());
 
                         pOutput.accept(ModItems.HALIBUT_CANNON.get());
+                        pOutput.accept(ModItems.ABYSSAL_SMG.get());
+                        pOutput.accept(ModItems.ABYSSAL_LMG.get());
+                        pOutput.accept(ModItems.SPEAR_GUN.get());
+
+                        pOutput.accept(ModItems.DUAL_PISTOL.get());
+                        pOutput.accept(ModItems.REDSTONE_REPEATER.get());
 
                         pOutput.accept(ModItems.URANIUM_CELL.get());
-                        pOutput.accept(ModItems.URANIUM_BLUEPRINT.get());
+                        pOutput.accept(ModItems.ACID_TANK.get());
+                        pOutput.accept(ModItems.TOXIC_BLUEPRINT.get());
+                        pOutput.accept(ModItems.ANTHRALITE_SPEAR.get());
+
+                        pOutput.accept(ModItems.POLYMER_GUN_FRAME.get());
 
 
                     })

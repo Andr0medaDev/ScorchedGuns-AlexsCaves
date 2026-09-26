@@ -27,6 +27,9 @@ public enum SCGunsACSpecialModels {
     TOXIC_SILENCER("toxic_carbine/silencer"),
     TOXIC_ADVANCED_SILENCER("toxic_carbine/advanced_silencer"),
     TOXIC_MUZZLE_BRAKE("toxic_carbine/muzzle_brake"),
+    //toxic lmg
+    TOXIC_LMG("gun/toxic_lmg"),
+    TOXIC_LMG_MAIN("toxic_lmg/main"),
     //toxic shotgun
     ACID_SHOTGUN("gun/acid_shotgun"),
     ACID_SHOTGUN_MAIN("acid_shotgun/main"),
@@ -35,7 +38,16 @@ public enum SCGunsACSpecialModels {
     ACID_PISTOL_MAIN("acid_pistol/main"),
     //halibut cannon
     HALIBUT_CANNON("gun/halibut_cannon"),
-    HALIBUT_CANNON_MAIN("halibut_cannon/main");
+    HALIBUT_CANNON_MAIN("halibut_cannon/main"),
+    //abyss smg
+    ABYSSAL_SMG("gun/abyssal_smg"),
+    ABYSSAL_SMG_MAIN("abyssal_smg/main"),
+    //abyss lmg
+    ABYSSAL_LMG("gun/abyssal_lmg"),
+    ABYSSAL_LMG_MAIN("abyssal_lmg/main"),
+    //abyss lmg
+    SPEAR_GUN("gun/spear_gun"),
+    SPEAR_GUN_MAIN("spear_gun/main");
 
 
     /**

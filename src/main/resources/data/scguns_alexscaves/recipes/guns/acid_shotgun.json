@@ -1,0 +1,36 @@
+{
+  "type": "scguns:gun_bench",
+  "result": {
+    "item": "scguns_alexscaves:acid_shotgun",
+    "count": 1
+  },
+  "ingredients": {
+    "blueprint": {
+      "item": "scguns_alexscaves:toxic_blueprint"
+    },
+    "gun_internal_1": {
+      "item": "alexscaves:polymer_plate"
+    },
+    "gun_internal_2": {
+      "item": "scguns:firing_unit"
+    },
+    "gun_top_internal_1": {
+      "item": "alexscaves:polymer_plate"
+    },
+    "gun_top_internal_2": {
+      "item": "scguns_alexscaves:polymer_gun_frame"
+    },
+    "gun_barrel_2": {
+      "item": "scguns:heavy_gun_barrel"
+    },
+    "gun_grip": {
+      "item": "scguns:gun_grip"
+    },
+    "gun_barrel_1": {
+      "item": "scguns:gun_parts"
+    },
+    "gun_magazine": {
+      "item": "scguns_alexscaves:acid_tank"
+    }
+  }
+}

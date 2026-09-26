@@ -6,7 +6,7 @@
   },
   "ingredients": {
     "blueprint": {
-      "item": "scguns_alexscaves:uranium_blueprint"
+      "item": "scguns_alexscaves:toxic_blueprint"
     },
     "gun_internal_1": {
       "item": "scguns:firing_unit"
@@ -18,7 +18,7 @@
       "item": "alexscaves:polymer_plate"
     },
     "gun_top_internal_2": {
-      "item": "scguns:iron_gun_frame"
+      "item": "scguns_alexscaves:polymer_gun_frame"
     },
     "gun_barrel_2": {
       "item": "scguns:gun_barrel"

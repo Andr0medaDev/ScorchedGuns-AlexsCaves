@@ -1,0 +1,70 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.5,
+      "yOffset": 4.7,
+      "zOffset": -5.6,
+      "textureLocation": "muzzle_flash_forlorn",
+      "alternateMuzzleFlash": true,
+      "alternatePosition": {
+        "x": -8.5,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "spawnParticles": "true",
+      "particleType": "scguns_alexscaves:magic_small",
+      "particleCount": 15,
+      "particleSpread": 0.5,
+      "particleRingRadius": 0.5
+
+    }
+  },
+  "general": {
+    "weaponType": "pistol",
+    "fireMode": "scguns:automatic",
+    "gripType": "scguns:dual_wield",
+    "baseGripType": "scguns:dual_wield",
+    "rate": 6,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20
+  },
+  "modules": {
+  },
+  "projectile": {
+    "alwaysSpread": false,
+    "spread": 2.0,
+    "recoilAngle": 2.0,
+    "recoilKick": 1.25,
+    "hotBarrelRate": 14,
+    "criticalChance": 0.05,
+    "advantage": "scguns:none",
+    "damage": 24.5,
+    "ejectsCasing": false,
+    "gravity": false,
+    "item": "alexscaves:pure_darkness",
+    "life": 45,
+    "size": 0.05,
+    "speed": 9.5,
+    "trailLengthMultiplier": 2.0,
+    "impactEffect": "minecraft:blindness",
+    "impactEffectDuration": 250,
+    "impactEffectChance": 0.50,
+    "impactEffectAmplifier": 1
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 18,
+    "reloadItem": "alexscaves:pure_darkness",
+    "reloadTimer": 125,
+    "reloadType": "scguns:single_item"
+  },
+  "sounds": {
+    "boltPull": "minecraft:block.iron_trapdoor.open",
+    "boltRelease": "minecraft:block.iron_trapdoor.close",
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns:item.plasma.fire",
+    "fire": "scguns_alexscaves:item.forlorn_dual.fire",
+    "silencedFire": "scguns:item.bruiser.silenced_fire",
+    "flyby": "scguns:bullet.flyby1"
+  }
+}

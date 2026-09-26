@@ -18,6 +18,13 @@ public class WaterBucketProjectileEntity extends ProjectileEntity {
     private static final float LAND_DAMAGE_PENALTY = 0.65F;
     private boolean wasUnderwater = false;
 
+    @Override
+    protected void onWaterImpact(Vec3 impactPos) {
+        if(!this.level().isClientSide()) {
+            boolean enableParticles = false;
+        }
+    }
+
     public WaterBucketProjectileEntity(EntityType<? extends Entity> entityType, Level worldIn) {
         super(entityType, worldIn);
     }

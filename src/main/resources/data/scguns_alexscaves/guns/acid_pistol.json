@@ -9,18 +9,12 @@
   },
   "general": {
     "weaponType": "pistol",
-    "alwaysSpread": false,
     "fireMode": "scguns:semi_automatic",
     "gripType": "scguns:two_handed",
     "baseGripType": "scguns:two_handed",
     "rate": 6,
-    "recoilAngle": 2.5,
-    "recoilKick": 0.75,
-    "spread": 2.0,
     "meleeDamage": 2.5,
-    "meleeCooldownTicks": 20,
-    "hotBarrelRate": 14,
-    "criticalChance": 0.05
+    "meleeCooldownTicks": 20
   },
   "modules": {
     "attachments": {
@@ -47,18 +41,24 @@
     }
   },
   "projectile": {
+    "alwaysSpread": false,
+    "spread": 2.0,
+    "recoilAngle": 2.5,
+    "recoilKick": 0.75,
+    "hotBarrelRate": 14,
+    "criticalChance": 0.05,
     "advantage": "scguns:none",
     "damage": 9.0,
     "ejectsCasing": true,
     "gravity": false,
-    "item": "scguns_alexscaves:uranium_cell",
+    "item": "scguns_alexscaves:acid_tank",
     "casingType": "scguns:empty_cell",
     "casingParticle": "scguns:iron_casing",
     "life": 45,
     "size": 0.05,
     "speed": 9.5,
     "trailLengthMultiplier": 2.0,
-    "impactEffect": "alexscaves:irradiated",
+    "impactEffect": "scguns:sulfur_poisoning",
     "impactEffectDuration": 250,
     "impactEffectChance": 0.50,
     "impactEffectAmplifier": 1
@@ -66,8 +66,8 @@
   "reloads": {
     "emptyMagTimer": 10,
     "maxAmmo": 18,
-    "reloadItem": "scguns:advanced_round",
-    "reloadByproduct": "minecraft:bucket",
+    "reloadItem": "scguns_alexscaves:acid_tank",
+    "reloadByproduct": "scguns:empty_tank",
     "byproductChance": 0.55,
     "reloadTimer": 125,
     "reloadType": "scguns:single_item"
@@ -77,8 +77,9 @@
     "boltRelease": "minecraft:block.iron_trapdoor.close",
     "cock": "scguns:item.pistol.cock",
     "enchantedFire": "scguns:item.plasma.fire",
-    "fire": "scguns:item.plasma.fire",
-    "reload": "scguns:item.gauss.reload",
+    "fire": "scguns_alexscaves:item.acid.fire",
+    "reloadStart": "scguns_alexscaves:item.trapdoor.close",
+    "reloadEnd": "scguns_alexscaves:item.trapdoor.open",
     "silencedFire": "scguns:item.bruiser.silenced_fire",
     "flyby": "scguns:bullet.flyby1"
   }
