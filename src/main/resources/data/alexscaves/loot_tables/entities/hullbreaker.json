@@ -91,7 +91,7 @@
       {
         "type": "item",
         "name": "scguns_alexscaves:halibut_cannon",
-        "weight": 80,
+        "weight": 1,
         "functions": []
       }
     ]

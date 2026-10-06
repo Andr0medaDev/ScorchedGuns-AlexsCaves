@@ -4,7 +4,7 @@ plugins {
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
-    id("org.spongepowered.mixin") version "0.7.+"
+    id 'org.spongepowered.mixin' version '0.7.+'
 
 }
 
@@ -130,6 +130,12 @@ dependencies {
 
 }
 
+mixin {
+    add sourceSets.main, "scguns_alexscaves.refmap.json"
+    config "scguns_alexscaves.mixins.json"
+}
+
+
 tasks.named('processResources', ProcessResources).configure {
     var replaceProperties = [
             minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
@@ -185,3 +191,4 @@ publishing {
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
+

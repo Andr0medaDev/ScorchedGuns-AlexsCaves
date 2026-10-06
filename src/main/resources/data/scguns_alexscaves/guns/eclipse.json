@@ -1,0 +1,70 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.0,
+      "yOffset": 4.7,
+      "zOffset": -7.5,
+      "textureLocation": "muzzle_flash_forlorn",
+      "spawnParticles": "true",
+      "particleType": "scguns_alexscaves:magic_small",
+      "particleCount": 7,
+      "particleSpread": 0.5,
+      "particleRingRadius": 0.5
+    }
+  },
+  "general": {
+    "weaponType": "smg",
+    "fireMode": "scguns:automatic",
+    "gripType": "scguns:two_handed",
+    "baseGripType": "scguns:two_handed",
+    "rate": 3,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 14,
+    "criticalChance": 0.05
+  },
+  "modules": {
+    "attachments": {
+      "scope": {
+        "size": 0.8,
+        "yOffset": 5.9,
+        "zOffset": 5.2
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 7.0,
+      "zOffset": -1.25
+    }
+  },
+  "projectile": {
+    "alwaysSpread": false,
+    "recoilAngle": 2.5,
+    "recoilKick": 1.25,
+    "spread": 2.0,
+    "advantage": "scguns:none",
+    "damage": 9.0,
+    "ejectsCasing": false,
+    "gravity": false,
+    "item": "alexscaves:pure_darkness",
+    "life": 45,
+    "size": 0.05,
+    "speed": 9.5,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 50,
+    "reloadItem": "alexscaves:pure_darkness",
+    "reloadTimer": 125,
+    "reloadType": "scguns:mag_fed"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns_alexscaves:item.forlorn_dual.fire",
+    "fire": "scguns_alexscaves:item.forlorn_dual.fire",
+    "reload": "scguns:item.gauss.reload",
+    "silencedFire": "scguns:item.bruiser.silenced_fire",
+    "flyby": "scguns:bullet.flyby1"
+  }
+}

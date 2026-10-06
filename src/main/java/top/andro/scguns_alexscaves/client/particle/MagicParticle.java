@@ -19,12 +19,18 @@ public class MagicParticle extends TextureSheetParticle {
         this.quadSize = 0.1F;
         this.sprites = spriteSet;
         this.roll += 0.1;
+        this.gravity += 0.25;
         this.setSpriteFromAge(spriteSet);
     }
 
     @Override
     public ParticleRenderType getRenderType() {
         return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
+    }
+
+    @Override
+    protected int getLightColor(float partialTick) {
+        return 0xF000F0;
     }
 
     @Override

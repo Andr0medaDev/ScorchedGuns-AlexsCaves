@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "X": {
+      "item": "minecraft:sea_lantern"
+    },
+    "#": {
+      "tag": "scguns_alexscaves:polymer_plates"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "item": "scguns_alexscaves:polymer_plate_lamp",
+    "count": 4
+  }
+}

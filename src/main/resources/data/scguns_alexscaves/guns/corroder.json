@@ -1,0 +1,86 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.0,
+      "yOffset": 4.7,
+      "zOffset": -5.6,
+      "textureLocation": "muzzle_flash_3"
+    }
+  },
+  "general": {
+    "weaponType": "pistol",
+    "fireMode": "scguns:semi_automatic",
+    "gripType": "scguns:one_handed",
+    "baseGripType": "scguns:one_handed",
+    "rate": 6,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20
+  },
+  "modules": {
+    "attachments": {
+      "barrel": {
+        "yOffset": 4.7,
+        "zOffset": -7.4
+      },
+      "scope": {
+        "size": 0.8,
+        "yOffset": 5.9,
+        "zOffset": 5.2
+      },
+      "stock": {
+        "scale": 0.0
+      },
+      "magazine": {
+        "scale": 0.0
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 6.3,
+      "zOffset": 0.75
+    }
+  },
+  "projectile": {
+    "alwaysSpread": false,
+    "spread": 2.0,
+    "recoilAngle": 2.5,
+    "recoilKick": 0.75,
+    "hotBarrelRate": 14,
+    "criticalChance": 0.05,
+    "advantage": "scguns:bot",
+    "damage": 8.0,
+    "ejectsCasing": false,
+    "gravity": false,
+    "item": "scguns_alexscaves:acid_tank",
+    "casingType": "scguns:empty_cell",
+    "casingParticle": "scguns:iron_casing",
+    "life": 45,
+    "size": 0.05,
+    "speed": 9.5,
+    "trailLengthMultiplier": 2.0,
+    "impactEffect": "scguns:sulfur_poisoning",
+    "impactEffectDuration": 250,
+    "impactEffectChance": 0.50,
+    "impactEffectAmplifier": 1
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 6,
+    "reloadItem": "scguns_alexscaves:acid_tank",
+    "reloadByproduct": "scguns:empty_tank",
+    "byproductChance": 0.55,
+    "reloadTimer": 125,
+    "reloadType": "scguns:single_item"
+  },
+  "sounds": {
+    "boltPull": "minecraft:block.iron_trapdoor.open",
+    "boltRelease": "minecraft:block.iron_trapdoor.close",
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns:item.plasma.fire",
+    "fire": "scguns_alexscaves:item.acid.fire_rifle",
+    "reloadStart": "scguns_alexscaves:item.trapdoor.close",
+    "reloadEnd": "scguns_alexscaves:item.trapdoor.open",
+    "silencedFire": "scguns:item.bruiser.silenced_fire",
+    "flyby": "scguns:bullet.flyby1"
+  }
+}

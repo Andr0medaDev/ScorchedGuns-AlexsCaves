@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "scguns_alexscaves:halibut_cannon",
+    "scguns_alexscaves:elver_tide",
+    "scguns_alexscaves:moray_tide",
+    "scguns_alexscaves:mahi",
+    "scguns_alexscaves:neptunes_bounty"
+  ]
+}

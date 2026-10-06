@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "scguns_alexscaves:uranium_cell",
+    "scguns_alexscaves:acid_tank",
+    "minecraft:water_bucket",
+    "alexscaves:pure_darkness",
+    "alexscaves:guano"
+  ]
+}

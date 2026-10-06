@@ -13,15 +13,23 @@ import static top.andro.scguns_alexscaves.SCGunsAC.MOD_ID;
 public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MOD_ID);
 
+    // Fire Sounds
     public static final RegistryObject<SoundEvent> HALIBUT_CANNON_FIRE = register("item.halibut_cannon.fire");
     public static final RegistryObject<SoundEvent> FORLORN_DUAL_FIRE = register("item.forlorn_dual.fire");
+    public static final RegistryObject<SoundEvent> BEAM = register("item.beam.fire");
     public static final RegistryObject<SoundEvent> THOMPSON_FIRE = register("item.thompson.fire");
     public static final RegistryObject<SoundEvent> ACID_FIRE = register("item.acid.fire");
     public static final RegistryObject<SoundEvent> URANIUM_FIRE = register("item.uranium.fire");
     public static final RegistryObject<SoundEvent> EXO_LASER = register("item.exo_laser.fire");
-    public static final RegistryObject<SoundEvent> SCREW = register("item.gun_rustle.screw");
+
+    public static final RegistryObject<SoundEvent> GUANO = register("item.guano.fire");
+
+    // Generic Sounds
     public static final RegistryObject<SoundEvent> TRAPDOOR_OPEN = register("item.trapdoor.open");
     public static final RegistryObject<SoundEvent> TRAPDOOR_CLOSE = register("item.trapdoor.close");
+    public static final RegistryObject<SoundEvent> SCREW = register("item.gun_rustle.screw");
+    public static final RegistryObject<SoundEvent> BEACON_ACTIVATE = register("item.beacon.activate");
+    public static final RegistryObject<SoundEvent> BEACON_AMBIENT = register("item.beacon.ambient");
 
     public static void register(IEventBus eventbus) {SOUNDS.register(eventbus);}
 

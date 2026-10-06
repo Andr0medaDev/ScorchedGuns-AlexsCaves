@@ -1,0 +1,17 @@
+{
+  "type": "scguns:powered_mechanical_pressing",
+  "processingTime": 25,
+  "energyUse": 500,
+  "ingredients": [
+    {
+      "tag": "forge:ingots/brass"
+    }
+  ],
+  "mold": {
+    "item": "scguns:bullet_mold"
+  },
+  "result": {
+    "item": "scguns_alexscaves:brass_bullet",
+    "count": 12
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Z": {
+      "item": "scguns:blueprint_scrap"
+    },
+    "Y": {
+      "item": "minecraft:paper"
+    },
+    "X": {
+      "item": "alexscaves:immortal_embryo"
+    }
+  },
+  "pattern": [
+    "ZYZ",
+    "YXY",
+    "ZYZ"
+  ],
+  "result": {
+    "item": "scguns_alexscaves:abyssal_blueprint"
+  }
+}

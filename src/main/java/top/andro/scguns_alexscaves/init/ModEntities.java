@@ -9,11 +9,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import top.andro.scguns_alexscaves.entity.RadAgentEntity;
-import top.andro.scguns_alexscaves.entity.projectile.AcidTankProjectileEntity;
-import top.andro.scguns_alexscaves.entity.projectile.MagicProjectileEntity;
-import top.andro.scguns_alexscaves.entity.projectile.UraniumCellProjectileEntity;
-import top.andro.scguns_alexscaves.entity.projectile.WaterBucketProjectileEntity;
+import top.andro.scguns_alexscaves.common.entity.RadAgentEntity;
+import top.andro.scguns_alexscaves.common.entity.projectile.*;
 
 import java.util.function.BiFunction;
 
@@ -27,6 +24,8 @@ public class ModEntities {
     public static final RegistryObject<EntityType<AcidTankProjectileEntity>> ACID_TANK_PROJECTILE = registerBasic("acid_tank_projectile", AcidTankProjectileEntity::new);
     public static final RegistryObject<EntityType<WaterBucketProjectileEntity>> WATER_BUCKET_PROJECTILE = registerBasic("water_bucket_projectile", WaterBucketProjectileEntity::new);
     public static final RegistryObject<EntityType<MagicProjectileEntity>> MAGIC_PROJECTILE = registerBasic("magic_projectile", MagicProjectileEntity::new);
+    public static final RegistryObject<EntityType<GuanoProjectileEntity>> GUANO_PROJECTILE = registerBasic("guano_projectile", GuanoProjectileEntity::new);
+
 
     public static final RegistryObject<EntityType<RadAgentEntity>> RAD_AGENT = REGISTER.register("rad_agent", () -> EntityType.Builder.of(RadAgentEntity::new, MobCategory.MONSTER)
             .sized(0.8f,2.0f)

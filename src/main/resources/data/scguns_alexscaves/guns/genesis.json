@@ -1,0 +1,86 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.5,
+      "yOffset": 5.25,
+      "zOffset": -15.5,
+      "textureLocation": "muzzle_flash_3"
+    }
+  },
+  "general": {
+    "weaponType": "lmg",
+    "fireMode": "scguns:automatic",
+    "gripType": "scguns:two_handed",
+    "baseGripType": "scguns:two_handed",
+    "rate": 2,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 14,
+    "criticalChance": 0.05
+  },
+  "modules": {
+    "attachments": {
+      "barrel": {
+        "yOffset": 4.7,
+        "zOffset": -7.4
+      },
+      "scope": {
+        "size": 0.8,
+        "yOffset": 5.9,
+        "zOffset": 5.2
+      },
+      "stock": {
+        "scale": 0.0
+      },
+      "magazine": {
+        "scale": 0.0
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 6.625,
+      "zOffset": 0.75
+    }
+  },
+  "projectile": {
+    "alwaysSpread": false,
+    "recoilAngle": 2.25,
+    "recoilKick": 1.25,
+    "spread": 5.0,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.1,
+    "advantage": "scguns:none",
+    "damageFalloffStart": 20.0,
+    "damageFalloffEnd": 50.0,
+    "damageFalloffMinMultiplier": 0.65,
+    "damage": 10.5,
+    "ejectsCasing": true,
+    "gravity": false,
+    "item": "scguns_alexscaves:uranium_cell",
+    "casingType": "scguns:empty_cell",
+    "casingParticle": "scguns:iron_casing",
+    "life": 45,
+    "size": 0.05,
+    "speed": 9.5,
+    "trailLengthMultiplier": 2.0,
+    "impactEffect": "alexscaves:irradiated",
+    "impactEffectDuration": 250,
+    "impactEffectChance": 0.50,
+    "impactEffectAmplifier": 1
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 65,
+    "reloadItem": "scguns_alexscaves:uranium_cell",
+    "reloadTimer": 125,
+    "reloadType": "scguns:mag_fed"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns:item.plasma.fire",
+    "fire": "scguns_alexscaves:item.uranium.fire_rifle",
+    "reload": "scguns:item.gauss.reload",
+    "silencedFire": "scguns:item.bruiser.silenced_fire",
+    "flyby": "scguns:bullet.flyby1"
+  }
+}

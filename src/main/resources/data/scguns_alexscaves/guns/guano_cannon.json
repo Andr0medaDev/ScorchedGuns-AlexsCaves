@@ -1,0 +1,69 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.5,
+      "yOffset": 6.0,
+      "zOffset": -15.0,
+      "textureLocation": "muzzle_flash_forlorn"
+    }
+  },
+  "general": {
+    "weaponType": "heavy",
+    "fireMode": "scguns:burst",
+    "burstAmount": 2,
+    "burstCooldown": 10,
+    "gripType": "scguns:bazooka",
+    "baseGripType": "scguns:bazooka",
+    "rate": 5,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 14,
+    "criticalChance": 0.05
+  },
+  "modules": {
+    "attachments": {
+      },
+    "zoom": {
+      "fovModifier": 0.5,
+      "xOffset": 3.7,
+      "yOffset": 7.9,
+      "zOffset": 7.0
+    }
+  },
+  "projectile": {
+    "alwaysSpread": true,
+    "recoilAngle": 1.5,
+    "recoilKick": 2.25,
+    "projectileAmount": 9,
+    "spread": 4.5,
+    "damageFalloffStart": 8.0,
+    "damageFalloffEnd": 20.0,
+    "damageFalloffMinMultiplier": 0.4,
+    "advantage": "scguns:none",
+    "damage": 6.5,
+    "ejectsCasing": false,
+    "gravity": true,
+    "item": "alexscaves:guano",
+    "life": 55,
+    "size": 0.05,
+    "speed": 5.5,
+    "trailLengthMultiplier": 2.0,
+    "impactEffect": "minecraft:nausea",
+    "impactEffectDuration": 250,
+    "impactEffectChance": 0.50,
+    "impactEffectAmplifier": 1
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 10,
+    "reloadItem": "scguns:rocket",
+    "reloadTimer": 125,
+    "reloadType": "scguns:mag_fed"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns_alexscaves:item.guano.fire",
+    "fire": "scguns_alexscaves:item.guano.fire",
+    "reload": "scguns:item.gauss.reload"
+  }
+}

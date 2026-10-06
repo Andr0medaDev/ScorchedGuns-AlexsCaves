@@ -1,0 +1,33 @@
+{
+  "type": "scguns:gun_bench",
+  "result": {
+    "item": "scguns_alexscaves:corroder",
+    "count": 1
+  },
+  "ingredients": {
+    "blueprint": {
+      "item": "scguns_alexscaves:atomic_blueprint"
+    },
+    "gun_internal_1": {
+      "item": "scguns:firing_unit"
+    },
+    "gun_internal_2": {
+      "item": "scguns:gun_parts"
+    },
+    "gun_top_internal_2": {
+      "item": "alexscaves:polymer_plate"
+    },
+    "gun_top_internal_3": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "gun_grip": {
+      "item": "scguns:gun_grip"
+    },
+    "gun_barrel_1": {
+      "item": "scguns:gun_barrel"
+    },
+    "gun_magazine": {
+      "item": "alexscaves:radon_bottle"
+    }
+  }
+}

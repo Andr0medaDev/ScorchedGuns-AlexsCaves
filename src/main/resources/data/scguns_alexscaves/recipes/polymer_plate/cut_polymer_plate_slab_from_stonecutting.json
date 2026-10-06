@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "scguns_alexscaves:cut_polymer_plate"
+  },
+  "result": "scguns_alexscaves:cut_polymer_plate_slab"
+}

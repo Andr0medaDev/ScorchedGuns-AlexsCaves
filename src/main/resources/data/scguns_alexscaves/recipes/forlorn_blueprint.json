@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Z": {
+      "item": "scguns:blueprint_scrap"
+    },
+    "Y": {
+      "item": "minecraft:paper"
+    },
+    "X": {
+      "item": "alexscaves:desolate_dagger"
+    }
+  },
+  "pattern": [
+    "ZYZ",
+    "YXY",
+    "ZYZ"
+  ],
+  "result": {
+    "item": "scguns_alexscaves:forlorn_blueprint"
+  }
+}

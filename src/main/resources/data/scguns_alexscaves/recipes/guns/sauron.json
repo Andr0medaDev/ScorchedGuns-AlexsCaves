@@ -1,0 +1,39 @@
+{
+  "type": "scguns:gun_bench",
+  "result": {
+    "item": "scguns_alexscaves:sauron",
+    "count": 1
+  },
+  "ingredients": {
+    "blueprint": {
+      "item": "scguns_alexscaves:forlorn_blueprint"
+    },
+    "gun_internal_1": {
+      "item": "alexscaves:thornwood_planks"
+    },
+    "gun_internal_2": {
+      "item": "scguns:heavy_gun_parts"
+    },
+    "gun_top_internal_1": {
+      "item": "scguns:gun_grip"
+    },
+    "gun_top_internal_2": {
+      "item": "alexscaves:pure_darkness"
+    },
+    "gun_barrel_2": {
+      "item": "alexscaves:beholder"
+    },
+    "gun_grip": {
+      "item": "alexscaves:pure_darkness"
+    },
+    "gun_barrel_1": {
+      "item": "scguns:heavy_gun_barrel"
+    },
+    "gun_magazine": {
+      "item": "alexscaves:pure_darkness"
+    },
+    "gun_top_barrel_1": {
+      "item": "alexscaves:thornwood_planks"
+    }
+  }
+}

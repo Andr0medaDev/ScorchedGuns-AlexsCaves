@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "group": "iron_ingot",
+  "experience": 0.7,
+  "ingredient": {
+    "item": "scguns_alexscaves:baric_alloy_blend"
+  },
+  "result": "scguns_alexscaves:baric_alloy"
+}

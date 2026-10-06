@@ -1,0 +1,27 @@
+{
+  "type": "scguns:macerating",
+  "processingTime": 200,
+  "ingredients": [
+    [
+      {
+        "item": "scguns:treated_iron_ingot"
+      },
+      {
+        "item": "scguns:treated_iron_blend"
+      }
+    ],
+    {
+      "item": "alexscaves:marine_snow"
+    },
+    {
+      "item": "alexscaves:abyssmarine"
+    },
+    {
+      "item": "alexscaves:sea_glass_shards"
+    }
+  ],
+  "result": {
+    "item": "scguns_alexscaves:baric_alloy_blend",
+    "count": 3
+  }
+}

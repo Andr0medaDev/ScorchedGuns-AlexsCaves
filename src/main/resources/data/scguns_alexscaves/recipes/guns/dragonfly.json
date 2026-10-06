@@ -1,0 +1,39 @@
+{
+  "type": "scguns:gun_bench",
+  "result": {
+    "item": "scguns_alexscaves:dragonfly",
+    "count": 1
+  },
+  "ingredients": {
+    "blueprint": {
+      "item": "scguns_alexscaves:forlorn_blueprint"
+    },
+    "gun_internal_1": {
+      "item": "scguns:firing_unit"
+    },
+    "gun_internal_2": {
+      "item": "scguns:heavy_gun_parts"
+    },
+    "gun_top_internal_1": {
+      "item": "alexscaves:pure_darkness"
+    },
+    "gun_top_internal_2": {
+      "item": "alexscaves:pure_darkness"
+    },
+    "gun_barrel_2": {
+      "item": "scguns:gun_barrel"
+    },
+    "gun_grip": {
+      "item": "scguns:gun_grip"
+    },
+    "gun_barrel_1": {
+      "item": "scguns:heavy_gun_barrel"
+    },
+    "gun_magazine": {
+      "item": "scguns:gun_magazine"
+    },
+    "gun_top_barrel_1": {
+      "item": "alexscaves:thornwood_planks"
+    }
+  }
+}

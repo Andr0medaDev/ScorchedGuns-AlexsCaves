@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 16,
+  "ingredient": {
+    "item": "scguns_alexscaves:polymer_plate_block"
+  },
+  "result": "scguns_alexscaves:chiseled_polymer_plate_block"
+}

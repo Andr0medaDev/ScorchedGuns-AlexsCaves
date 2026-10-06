@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "alexscaves:toxic_caves"
+  ],
+  "spawners": {
+    "type": "scguns_alexscaves:rad_agent",
+    "maxCount": 5,
+    "minCount": 3,
+    "weight": 25
+  }
+}

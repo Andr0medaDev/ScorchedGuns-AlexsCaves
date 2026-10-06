@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "scguns_alexscaves:atomic_carabine",
+    "scguns_alexscaves:fission_fever",
+    "scguns_alexscaves:genesis",
+    "scguns_alexscaves:foul_emesis",
+    "scguns_alexscaves:corroder",
+    "scguns_alexscaves:acid_sprayer"
+  ]
+}

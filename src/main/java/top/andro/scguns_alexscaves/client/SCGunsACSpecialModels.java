@@ -12,42 +12,74 @@ import static top.andro.scguns_alexscaves.SCGunsAC.MOD_ID;
 
 @Mod.EventBusSubscriber(modid = MOD_ID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
 public enum SCGunsACSpecialModels {
-    //toxic carbine
-    TOXIC_CARBINE("gun/toxic_carbine"),
-    TOXIC_CARBINE_MAIN("toxic_carbine/main"),
-    TOXIC_STAN_MAGAZINE("toxic_carbine/stand_mag"),
-    TOXIC_FAST_MAGAZINE("toxic_carbine/fast_mag"),
-    TOXIC_EXT_MAGAZINE("toxic_carbine/ext_mag"),
-    TOXIC_STAN_BARREL("toxic_carbine/stand_barrel"),
-    TOXIC_EXT_BARREL("toxic_carbine/ext_barrel"),
-    TOXIC_STOCK_WEIGHTED("toxic_carbine/heavy_stock"),
-    TOXIC_STOCK_LIGHT("toxic_carbine/light_stock"),
-    TOXIC_STOCK_WOODEN("toxic_carbine/wooden_stock"),
-    TOXIC_STAN_GRIP("toxic_carbine/stand_grip"),
-    TOXIC_SILENCER("toxic_carbine/silencer"),
-    TOXIC_ADVANCED_SILENCER("toxic_carbine/advanced_silencer"),
-    TOXIC_MUZZLE_BRAKE("toxic_carbine/muzzle_brake"),
-    //toxic lmg
-    TOXIC_LMG("gun/toxic_lmg"),
-    TOXIC_LMG_MAIN("toxic_lmg/main"),
-    //toxic shotgun
-    ACID_SHOTGUN("gun/acid_shotgun"),
-    ACID_SHOTGUN_MAIN("acid_shotgun/main"),
-    //toxic pistol
-    ACID_PISTOL("gun/acid_pistol"),
-    ACID_PISTOL_MAIN("acid_pistol/main"),
+    //atomic carabine
+    ATOMIC_CARABINE("gun/atomic_carabine"),
+    ATOMIC_CARABINE_MAIN("atomic_carabine/main"),
+    ATOMIC_CARABINE_STAN_MAGAZINE("atomic_carabine/stand_mag"),
+    ATOMIC_CARABINE_FAST_MAGAZINE("atomic_carabine/fast_mag"),
+    ATOMIC_CARABINE_EXT_MAGAZINE("atomic_carabine/ext_mag"),
+    ATOMIC_CARABINE_STAN_BARREL("atomic_carabine/stand_barrel"),
+    ATOMIC_CARABINE_EXT_BARREL("atomic_carabine/ext_barrel"),
+    ATOMIC_CARABINE_STOCK_WEIGHTED("atomic_carabine/heavy_stock"),
+    ATOMIC_CARABINE_STOCK_LIGHT("atomic_carabine/light_stock"),
+    ATOMIC_CARABINE_STOCK_WOODEN("atomic_carabine/wooden_stock"),
+    ATOMIC_CARABINE_STAN_GRIP("atomic_carabine/stand_grip"),
+    ATOMIC_CARABINE_SILENCER("atomic_carabine/silencer"),
+    ATOMIC_CARABINE_ADVANCED_SILENCER("atomic_carabine/advanced_silencer"),
+    ATOMIC_CARABINE_MUZZLE_BRAKE("atomic_carabine/muzzle_brake"),
+    //genesis
+    GENESIS("gun/genesis"),
+    GENESIS_MAIN("genesis/main"),
+    //fission fever
+    FISSION_FEVER("gun/fission_fever"),
+    FISSION_FEVER_MAIN("fission_fever/main"),
+    //foul emesis
+    FOUL_EMESIS("gun/foul_emesis"),
+    FOUL_EMESIS_MAIN("foul_emesis/main"),
+    //corroder
+    CORRODER("gun/corroder"),
+    CORRODER_MAIN("corroder/main"),
+    //acid sprayer
+    ACID_SPRAYER("gun/acid_sprayer"),
+    ACID_SPRAYER_MAIN("acid_sprayer/main"),
+
     //halibut cannon
     HALIBUT_CANNON("gun/halibut_cannon"),
     HALIBUT_CANNON_MAIN("halibut_cannon/main"),
-    //abyss smg
-    ABYSSAL_SMG("gun/abyssal_smg"),
-    ABYSSAL_SMG_MAIN("abyssal_smg/main"),
-    //abyss lmg
-    ABYSSAL_LMG("gun/abyssal_lmg"),
-    ABYSSAL_LMG_MAIN("abyssal_lmg/main"),
-    //abyss lmg
-    SPEAR_GUN("gun/spear_gun"),
-    SPEAR_GUN_MAIN("spear_gun/main");
+    //sea serpent
+    SEA_SERPENT("gun/sea_serpent"),
+    SEA_SERPENT_MAIN("sea_serpent/main"),
+    //mahii
+    MAHI("gun/mahi"),
+    MAHI_MAIN("mahi/main"),
+    //elver tide
+    ELVER_TIDE("gun/elver_tide"),
+    ELVER_TIDE_MAIN("elver_tide/main"),
+    //moray tide
+    MORAY_TIDE("gun/moray_tide"),
+    MORAY_TIDE_MAIN("moray_tide/main"),
+    //neptunes bounty
+    NEPTUNES_BOUNTY("gun/neptunes_bounty"),
+    NEPTUNES_BOUNTY_MAIN("neptunes_bounty/main"),
+
+    //ebony and ivory
+    EBONY_IVORY("gun/ebony_ivory"),
+    EBONY_IVORY_MAIN("ebony_ivory/main"),
+    //dragonfly
+    DRAGONFLY("gun/dragonfly"),
+    DRAGONFLY_MAIN("dragonfly/main"),
+    //eclipse
+    ECLIPSE("gun/eclipse"),
+    ECLIPSE_MAIN("eclipse/main"),
+    //sauron
+    SAURON("gun/sauron"),
+    SAURON_MAIN("sauron/main"),
+    //redstone repeater i hate this thing
+    REDSTONE_REPEATER("gun/redstone_repeater"),
+    REDSTONE_REPEATER_MAIN("redstone_repeater/main"),
+    //guano cannon
+    GUANO_CANNON("gun/guano_cannon"),
+    GUANO_CANNON_MAIN("guano_cannon/main");
 
 
     /**

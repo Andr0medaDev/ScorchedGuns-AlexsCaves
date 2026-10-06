@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "iron_ingot",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "scguns_alexscaves:baric_alloy_blend"
+  },
+  "result": "scguns_alexscaves:baric_alloy"
+}

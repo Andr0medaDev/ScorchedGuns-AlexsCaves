@@ -16,5 +16,7 @@ public class GunEntityRenderers {
         event.registerEntityRenderer(ModEntities.URANIUM_CELL_PROJECTILE.get(), ProjectileRenderer::new);
         event.registerEntityRenderer(ModEntities.ACID_TANK_PROJECTILE.get(), ProjectileRenderer::new);
         event.registerEntityRenderer(ModEntities.WATER_BUCKET_PROJECTILE.get(), ProjectileRenderer::new);
+        event.registerEntityRenderer(ModEntities.MAGIC_PROJECTILE.get(), ProjectileRenderer::new);
+        event.registerEntityRenderer(ModEntities.GUANO_PROJECTILE.get(), ProjectileRenderer::new);
     }
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "alexscaves:polymer_plate"
+  },
+  "result": "scguns_alexscaves:polymer_plate_bars"
+}

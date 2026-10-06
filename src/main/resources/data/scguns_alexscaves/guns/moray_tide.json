@@ -1,0 +1,65 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.5,
+      "yOffset": 5.25,
+      "zOffset": -15.5,
+      "textureLocation": "muzzle_flash_abyssal"
+    }
+  },
+  "general": {
+    "weaponType": "lmg",
+    "fireMode": "scguns:automatic",
+    "gripType": "scguns:two_handed",
+    "baseGripType": "scguns:two_handed",
+    "rate": 2,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20,
+    "hotBarrelRate": 14,
+    "enableGunLight": false,
+    "isSilenced": true
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 6.625,
+      "zOffset": 0.75
+    }
+  },
+  "projectile": {
+    "energyUse": 35.0,
+    "alwaysSpread": true,
+    "recoilAngle": 2.25,
+    "recoilKick": 1.25,
+    "spread": 5.0,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.1,
+    "advantage": "scguns:none",
+    "damageFalloffStart": 20.0,
+    "damageFalloffEnd": 50.0,
+    "damageFalloffMinMultiplier": 0.65,
+    "damage": 11.0,
+    "ejectsCasing": true,
+    "gravity": false,
+    "item": "scguns:frog_dart",
+    "life": 45,
+    "size": 0.05,
+    "speed": 9.5,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 40,
+    "reloadItem": "scguns:frog_dart",
+    "reloadTimer": 125,
+    "reloadType": "scguns:mag_fed"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns_alexscaves:item.abyssal_rifle.fire",
+    "fire": "scguns_alexscaves:item.abyssal_rifle.fire",
+    "reload": "scguns:item.gauss.reload",
+    "silencedFire": "scguns_alexscaves:item.abyssal_rifle.fire",
+    "flyby": "scguns:bullet.flyby1"
+  }
+}

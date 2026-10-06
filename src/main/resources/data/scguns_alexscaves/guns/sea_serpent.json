@@ -1,0 +1,80 @@
+{
+  "display": {
+    "flash": {
+      "size": 2.0,
+      "yOffset": 4.7,
+      "zOffset": -20.0,
+      "textureLocation": "muzzle_flash_abyssal",
+      "spawnParticles": "true",
+      "particleType": "minecraft:bubble",
+      "particleCount": 18,
+      "particleSpread": 0.5,
+      "particleRingRadius": 0.5
+
+    }
+  },
+  "general": {
+    "weaponType": "sniper",
+    "fireMode": "scguns:automatic",
+    "gripType": "scguns:two_handed",
+    "baseGripType": "scguns:two_handed",
+    "rate": 30,
+    "meleeDamage": 3.5,
+    "meleeReach": 4.0,
+    "meleeCooldownTicks": 20,
+    "enableGunLight": false,
+    "isSilenced": true
+  },
+  "modules": {
+    "attachments": {
+      "scope": {
+        "size": 0.825,
+        "yOffset": 5.75,
+        "zOffset": 3.5
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 7.0,
+      "zOffset": 2.5
+    }
+  },
+  "projectile": {
+    "energyUse": 50.0,
+    "alwaysSpread": true,
+    "spread": 0.0,
+    "recoilAngle": 6.0,
+    "recoilKick": 3.75,
+    "hotBarrelRate": 14,
+    "criticalChance": 0.05,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.25,
+    "damageFalloffStart": 35.0,
+    "damageFalloffEnd": 90.0,
+    "damageFalloffMinMultiplier": 0.85,
+    "knockbackStrength": 1.1,
+    "advantage": "scguns:heavy",
+    "damage": 37.5,
+    "ejectsCasing": true,
+    "gravity": false,
+    "item": "scguns:frog_dart",
+    "life": 100,
+    "size": 0.1,
+    "speed": 15.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 8,
+    "reloadItem": "scguns:frog_dart",
+    "reloadTimer": 125,
+    "reloadType": "scguns:manual"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns_alexscaves:item.abyssal_heavy.fire",
+    "fire": "scguns_alexscaves:item.abyssal_heavy.fire",
+    "silencedFire": "scguns_alexscaves:item.abyssal_heavy.fire",
+    "flyby": "scguns:bullet.flyby1"
+  }
+}

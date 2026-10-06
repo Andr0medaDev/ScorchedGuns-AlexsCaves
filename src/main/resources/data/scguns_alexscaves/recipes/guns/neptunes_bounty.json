@@ -1,0 +1,36 @@
+{
+  "type": "scguns:gun_bench",
+  "result": {
+    "item": "scguns_alexscaves:neptunes_bounty",
+    "count": 1
+  },
+  "ingredients": {
+    "blueprint": {
+      "item": "scguns_alexscaves:abyssal_blueprint"
+    },
+    "gun_internal_1": {
+      "item": "scguns:firing_unit"
+    },
+    "gun_internal_2": {
+      "item": "scguns:heavy_gun_parts"
+    },
+    "gun_top_internal_1": {
+      "tag": "minecraft:planks"
+    },
+    "gun_top_internal_2": {
+      "item": "scguns_alexscaves:baric_alloy_gun_frame"
+    },
+    "gun_barrel_2": {
+      "item": "scguns:anthralite_bayonet"
+    },
+    "gun_grip": {
+      "item": "scguns:gun_grip"
+    },
+    "gun_barrel_1": {
+      "item": "scguns:gun_barrel"
+    },
+    "gun_magazine": {
+      "item": "scguns:gun_magazine"
+    }
+  }
+}

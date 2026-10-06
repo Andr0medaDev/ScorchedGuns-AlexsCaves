@@ -18,7 +18,7 @@ public class MagicImpactParticle extends TextureSheetParticle {
         this.lifetime = 5;
         this.quadSize = 0.2F * (0.1F - (float)pQuadSizeMultiplier * 0.5F);
         this.sprites = spriteSet;
-        //this.roll += 0.1;
+        this.roll += 0.1;
         this.setSpriteFromAge(spriteSet);
         this.xd = 0.0;
         this.yd = 0.0;
@@ -31,11 +31,16 @@ public class MagicImpactParticle extends TextureSheetParticle {
     }
 
     @Override
+    protected int getLightColor(float partialTick) {
+        return 0xF000F0;
+    }
+
+    @Override
     public void tick() {
         super.tick();
         this.setSpriteFromAge(this.sprites);
-        //this.oRoll = this.roll;
-        //this.roll += 0.15F;
+        this.oRoll = this.roll;
+        this.roll += 0.15F;
 
         this.xd = 0.0;
         this.yd = 0.0;

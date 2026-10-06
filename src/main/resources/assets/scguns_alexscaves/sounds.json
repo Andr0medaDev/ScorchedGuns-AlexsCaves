@@ -15,6 +15,14 @@
       }
     ]
   },
+  "item.abyssal_heavy.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/abyssal_heavy/fire"
+      }
+    ]
+  },
   "item.acid.fire": {
     "subtitle": "subtitle.scguns.fire",
     "sounds": [
@@ -39,8 +47,8 @@
       }
     ]
   },
-  "item.gun_rustle": {
-    "subtitle": "subtitle.scguns_alexscaves.gun_rustle",
+  "item.gun_rustle.screw": {
+    "subtitle": "subtitle.scguns.gun_rustle",
     "sounds": [
       {
         "name": "scguns_alexscaves:item/gun_rustle/screw1",
@@ -73,6 +81,87 @@
     "sounds": [
       {
         "name": "scguns_alexscaves:item/forlorn_dual/fire"
+      }
+    ]
+  },
+  "item.forlorn_heavy.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/forlorn_heavy/fire"
+      }
+    ]
+  },
+  "item.beam.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/beam/fire"
+      }
+    ]
+  },
+  "item.beacon.activate": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/beacon/activate"
+      }
+    ]
+  },
+  "item.beacon.ambient": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/beacon/ambient"
+      }
+    ]
+  },
+
+  "item.acid.fire_shotgun": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/acid/fire_shotgun"
+      }
+    ]
+  },
+  "item.acid.fire_rifle": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/acid/fire_rifle"
+      }
+    ]
+  },
+  "item.uranium.fire_rifle": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/uranium/fire_rifle"
+      }
+    ]
+  },
+  "item.guano.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/guano/fire"
+      }
+    ]
+  },
+  "item.abyssal_light.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/abyssal_light/fire"
+      }
+    ]
+  },
+  "item.abyssal_rifle.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "scguns_alexscaves:item/abyssal_rifle/fire"
       }
     ]
   }

@@ -1,0 +1,65 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.5,
+      "yOffset": 4.7,
+      "zOffset": -17.0,
+      "textureLocation": "muzzle_flash_abyssal"
+    }
+  },
+  "general": {
+    "weaponType": "rifle",
+    "fireMode": "scguns:semi_automatic",
+    "gripType": "scguns:two_handed",
+    "baseGripType": "scguns:two_handed",
+    "rate": 15,
+    "meleeDamage": 9.5,
+    "meleeCooldownTicks": 20,
+    "meleeReach": 4.5,
+    "hotBarrelRate": 14,
+    "criticalChance": 0.05,
+    "usesCustomMeleeAnimation": true,
+    "enableGunLight": false,
+    "isSilenced": true
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 5.5,
+      "zOffset": 0.75
+    }
+  },
+  "projectile": {
+    "energyUse": 40.0,
+    "alwaysSpread": true,
+    "recoilAngle": 2.5,
+    "recoilKick": 0.75,
+    "spread": 2.0,
+    "advantage": "scguns:none",
+    "damage": 17.5,
+    "ejectsCasing": true,
+    "gravity": false,
+    "item": "minecraft:water_bucket",
+    "casingType": "scguns:empty_cell",
+    "casingParticle": "scguns:iron_casing",
+    "life": 45,
+    "size": 0.05,
+    "speed": 9.5,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 1,
+    "reloadItem": "minecraft:water_bucket",
+    "reloadTimer": 125,
+    "reloadType": "scguns:single_item"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns_alexscaves:item.abyssal_rifle.fire",
+    "fire": "scguns_alexscaves:item.abyssal_rifle.fire",
+    "reload": "scguns:item.gauss.reload",
+    "silencedFire": "scguns_alexscaves:item.abyssal_rifle.fire",
+    "flyby": "scguns:bullet.flyby1"
+  }
+}

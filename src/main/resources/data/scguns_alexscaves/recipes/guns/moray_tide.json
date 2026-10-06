@@ -1,0 +1,39 @@
+{
+  "type": "scguns:gun_bench",
+  "result": {
+    "item": "scguns_alexscaves:moray_tide",
+    "count": 1
+  },
+  "ingredients": {
+    "blueprint": {
+      "item": "scguns_alexscaves:abyssal_blueprint"
+    },
+    "gun_internal_1": {
+      "item": "scguns:rapid_firing_unit"
+    },
+    "gun_internal_2": {
+      "item": "scguns_alexscaves:baric_alloy"
+    },
+    "gun_top_internal_1": {
+      "item": "scguns_alexscaves:baric_alloy"
+    },
+    "gun_top_internal_2": {
+      "item": "scguns_alexscaves:baric_alloy_gun_frame"
+    },
+    "gun_top_internal_3": {
+      "item": "scguns_alexscaves:baric_alloy"
+    },
+    "gun_barrel_2": {
+      "item": "scguns:heavy_gun_barrel"
+    },
+    "gun_grip": {
+      "item": "scguns:gun_grip"
+    },
+    "gun_barrel_1": {
+      "tag": "minecraft:planks"
+    },
+    "gun_magazine": {
+      "item": "scguns:gun_magazine"
+    }
+  }
+}
