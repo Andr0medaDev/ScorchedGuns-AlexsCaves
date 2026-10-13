@@ -58,10 +58,10 @@
   },
   "sounds": {
     "cock": "scguns:item.pistol.cock",
-    "enchantedFire": "scguns_alexscaves:item.halibut_cannon.enchanted_fire",
+    "enchantedFire": "scguns_alexscaves:item.halibut_cannon.fire",
     "fire": "scguns_alexscaves:item.halibut_cannon.fire",
     "reload": "scguns:item.gauss.reload",
-    "silencedFire": "scguns:item.bruiser.silenced_fire",
+    "silencedFire": "scguns_alexscaves:item.halibut_cannon.fire",
     "flyby": "scguns:bullet.flyby1"
   }
 }

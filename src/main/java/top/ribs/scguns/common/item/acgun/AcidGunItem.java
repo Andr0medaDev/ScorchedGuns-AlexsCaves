@@ -1,4 +1,4 @@
-package top.ribs.scguns.common.item.gun;
+package top.ribs.scguns.common.item.acgun;
 
 import net.minecraft.sounds.SoundEvent;
 import top.ribs.scguns.item.animated.AnimatedGunItem;

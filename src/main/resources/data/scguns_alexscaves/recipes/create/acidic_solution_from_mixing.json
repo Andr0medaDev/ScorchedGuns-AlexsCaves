@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "alexscaves:toxic_paste"
+    },
+    {
+      "item": "alexscaves:radon_bottle"
+    },
+    {
+      "item": "scguns:sulfur_dust"
+    },
+    {
+      "item": "scguns:phosphor_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "scguns_alexscaves:acidic_solution",
+      "count": 6
+    }
+  ]
+}

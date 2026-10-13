@@ -19,23 +19,6 @@
     "criticalChance": 0.05
   },
   "modules": {
-    "attachments": {
-      "barrel": {
-        "yOffset": 4.7,
-        "zOffset": -7.4
-      },
-      "scope": {
-        "size": 0.8,
-        "yOffset": 5.9,
-        "zOffset": 5.2
-      },
-      "stock": {
-        "scale": 0.0
-      },
-      "magazine": {
-        "scale": 0.0
-      }
-    },
     "zoom": {
       "fovModifier": 0.6,
       "yOffset": 6.625,

@@ -131,8 +131,8 @@ dependencies {
 }
 
 mixin {
-    add sourceSets.main, "scguns_alexscaves.refmap.json"
-    config "scguns_alexscaves.mixins.json"
+    add sourceSets.main, 'scguns_alexscaves.refmap.json'
+    config 'scguns_alexscaves.mixins.json'
 }
 
 
